@@ -1,0 +1,17 @@
+.timerbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.timevalue{
+  font-size: 4rem;
+}
+
+.btn{
+  width: rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-size: 4rem;
+}

@@ -1,0 +1,97 @@
+.timerpage{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.timerDisplay{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.circle{
+  background-color: #CCB0F8;
+  color: white;
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgba(220, 220, 220, 0.609);
+}
+
+.circle .time p:first-child{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.circle .time p:nth-child(2){
+  color: black;
+}
+
+.circle .time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.symbol{
+  font-size: 3rem;
+
+}
+
+.circleborder{
+  width: 20rem;
+  border-radius: 50%;
+  padding: 4rem;
+  background-color: #DBDDEB;
+  border: 0.5rem solid #E8AA50;
+}
+
+.controls{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.button{
+
+  cursor: pointer;
+  border: 0px;
+  font-size: 3rem;
+  border: 12px;
+  background-color: #CCB0F8;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px  rgba(219, 221, 235, 0.2);
+}
+
+.button:hover{
+  box-shadow: 1px 1px 1px  rgba(219, 221, 235, 0.2);
+}
+
+.button img{
+  width :4rem;
+  border-radius: 50%;
+  background-color: #CCB0F8;
+}
+
+.timerimg{
+position: absolute;
+  align-self:center ;
+  width: 15rem;
+  bottom: -20rem;
+}
+
+
+
+

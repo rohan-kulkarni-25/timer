@@ -1,0 +1,17 @@
+.timersetup{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.btns{
+  font-size: 1rem;
+  background-color: white;
+}
+
+.btnbox{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
