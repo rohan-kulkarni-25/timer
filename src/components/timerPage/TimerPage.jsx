@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./TimerPage.css";
 import STOP from './../../icons/stop-button.png'
-import PLAY from './../../icons/play-button.png'
-import PAUSE from './../../icons/pause.png'
-import Timer from "../timer/Timer";
 import TimerImg from './../../icons/TIMER.png'
 
 export default class TimerPage extends Component {

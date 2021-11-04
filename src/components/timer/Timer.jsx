@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import TimerBox from "../timerbox/TimerBox";
 import "./Timer.css";
-import STOP from './../../icons/stop-button.png'
 import PLAY from './../../icons/play-button.png'
-import PAUSE from './../../icons/pause.png'
 export default class Timer extends Component {
 
   render() {
