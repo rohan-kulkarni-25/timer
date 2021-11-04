@@ -5,8 +5,13 @@ body{
   text-align: center;
   background-color: #8A98DF;
 
+
 }
 .App{
   margin-top: 5rem;
-  position: relative;
+position: relative;
+}
+
+button{
+  cursor: pointer;
 }

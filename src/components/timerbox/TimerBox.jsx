@@ -1,15 +1,9 @@
 import React, { Component } from 'react'
 import './TimerBox.css'
+import Plus from './../../icons/plus.png'
+import Minus from './../../icons/minus.png'
 
 class TimerBox extends Component {
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      empty: 0
-    }
-  }
 
   clickTrackerMinus = () => {
     this.props.minusClicked(this.props.timeChecker)
@@ -21,9 +15,9 @@ class TimerBox extends Component {
   render() {
     return (
       <div className='timerbox'>
-        <button className='btn minus' onClick={this.clickTrackerMinus}>-</button>
+        <button className='btn minus' onClick={this.clickTrackerMinus}><img src={Minus} alt="" srcset="" /></button>
         <p className='timevalue'>{this.props.timeValue}</p>
-        <button className='btn plus' onClick={this.clickTrackerPlus}>+</button>
+        <button className='btn plus' onClick={this.clickTrackerPlus}><img src={Plus} alt="" srcset="" /></button>
       </div>
     )
   }

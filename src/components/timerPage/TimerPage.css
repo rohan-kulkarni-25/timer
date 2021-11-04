@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  position: relative;
 }
 
 .timerDisplay{
@@ -54,7 +55,7 @@
 .controls{
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .button img{
-  width :4rem;
+  width :5rem;
   border-radius: 50%;
   background-color: #CCB0F8;
 }
@@ -88,8 +89,8 @@
 .timerimg{
 position: absolute;
   align-self:center ;
-  width: 15rem;
-  bottom: -20rem;
+  width: 8rem;
+  bottom: -12rem;
 }
 
 
