@@ -5,7 +5,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer>
-      MADE WITH ❤️ BY ROHAN
+      MADE WITH <span role='img'>❤️</span> BY ROHAN
     </footer>
   )
 }
