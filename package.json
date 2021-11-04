@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rohan-kulkarni-25.github.io/timer/",
   "name": "timer",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage": "https://rohan-kulkarni-25.github.io/timer/"
+  }
 }
